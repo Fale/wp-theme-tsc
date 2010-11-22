@@ -48,7 +48,6 @@ del {
 /* =Layout
 -------------------------------------------------------------- */
 #container {
-  border: 1px solid;
 	float: left;
 	margin: 0 -240px 0 -240px;
 	width: 100%;
@@ -57,14 +56,12 @@ del {
 	margin: 0 280px 0 280px;
 }
 #primary {
-  border: 1px solid;
 	float: left;
 	overflow: hidden;
 	width: 220px;
 }
 
 #secondary {
-  border: 1px solid;
 	float: right;
 	overflow: hidden;
 	width: 220px;
@@ -627,6 +624,7 @@ body.page .edit-link {
 .widget-area ul {
 	list-style: none;
 	margin-left: 0;
+	border:1px solid #e1e1e1;
 }
 .widget-area ul ul {
 	list-style: square;
