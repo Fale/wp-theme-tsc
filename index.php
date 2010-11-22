@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
+<?php get_sidebar('left'); ?>
 
 		<div id="container">
 			<div id="content" role="main">
@@ -9,5 +9,5 @@
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+<?php get_sidebar('right'); ?>
 <?php get_footer(); ?>
