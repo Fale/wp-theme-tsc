@@ -1,4 +1,4 @@
-		<div id="primary" class="widget-area" role="complementary">
+		<div id="secondary" class="widget-area" role="complementary">
 			<ul class="xoxo">
 
 <?php
@@ -8,20 +8,7 @@
 	 * some default sidebar stuff just in case.
 	 */
 	if ( ! dynamic_sidebar( 'right-widget-area' ) ) : ?>
-	
-			<li id="search" class="widget-container widget_search">
-				<?php get_search_form(); ?>
-			</li>
-
-			<li id="meta" class="widget-container">
-				<h3 class="widget-title"><?php _e( 'Meta', 'grimp-sas' ); ?></h3>
-				<ul>
-					<?php wp_register(); ?>
-					<li><?php wp_loginout(); ?></li>
-					<?php wp_meta(); ?>
-				</ul>
-			</li>
-
+	ciao-right
 		<?php endif; // end primary widget area ?>
 			</ul>
 		</div><!-- #primary .widget-area -->
