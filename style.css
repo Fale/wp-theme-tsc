@@ -342,12 +342,12 @@ div.menu li {
 
 /* =Content
 -------------------------------------------------------------- */
-
-#main {
+#center {
 	clear: both;
 	overflow: hidden;
-	padding: 40px 0 0 0;
+	border:1px solid #e1e1e1;	
 }
+
 #content {
 	margin-bottom: 36px;
 }
@@ -621,14 +621,19 @@ body.page .edit-link {
 /* =Widget Areas
 -------------------------------------------------------------- */
 
+.widget-area h3 {
+  border-bottom: 1px solid #e1e1e1;
+  background: #f1f1f1;
+  text-align: center;
+}
+
 .widget-area ul {
 	list-style: none;
-	margin-left: 0;
 	border:1px solid #e1e1e1;
 }
+
 .widget-area ul ul {
 	list-style: square;
-	margin-left: 1.3em;
 }
 .widget_search #s {/* This keeps the search inputs in line */
 	width: 60%;
@@ -637,7 +642,7 @@ body.page .edit-link {
 	display: none;
 }
 .widget-container {
-	margin: 0 0 18px 0;
+	margin: 0 0 0 0;
 }
 .widget-title {
 	color: #222;
@@ -701,7 +706,7 @@ body.page .edit-link {
 /* Main sidebars */
 #main .widget-area ul {
 	margin-left: 0;
-	padding: 0 20px 0 0;
+	padding: 0 0 0 0;
 }
 #main .widget-area ul ul {
 	border: none;
