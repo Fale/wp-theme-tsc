@@ -53,7 +53,7 @@
 
 	<?php endif; ?>
 
-  			</div><!-- #middle -->
+  			</div><!-- #center -->
 			</div><!-- #content -->
 		</div><!-- #container -->
 

@@ -622,14 +622,20 @@ body.page .edit-link {
 -------------------------------------------------------------- */
 
 .widget-area h3 {
-  border-bottom: 1px solid #e1e1e1;
+  border: 1px solid #e1e1e1;
   background: #f1f1f1;
   text-align: center;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .widget-area ul {
 	list-style: none;
-	border:1px solid #e1e1e1;
+	border-right:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+	border-left:1px solid #e1e1e1;
+	-moz-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .widget-area ul ul {
