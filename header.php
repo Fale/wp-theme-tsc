@@ -35,6 +35,9 @@
 <div id="wrapper" class="hfeed">
 	<div id="header">
 		<img src="wp-content/themes/wp-theme-tsc/img/logo.gif" alt="" />
+		<div style="text-align:center">
+	    <ul class="xoxo"><?php dynamic_sidebar( 'header-widget-area' ); ?></ul>
+	  <div />
 	</div><!-- #header -->
 
 	<div id="main">
