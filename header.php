@@ -34,7 +34,7 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 	<div id="header">
-		<img src="wp-content/themes/wp-theme-sas/img/logo.gif" alt="" />
+		<img src="wp-content/themes/wp-theme-tsc/img/logo.gif" alt="" />
 	</div><!-- #header -->
 
 	<div id="main">

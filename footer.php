@@ -1,8 +1,7 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
-Parrocchia S. Ambrogio ad Fontes, Via Cardinal Schuster 1, 20090 Villaggio Ambrosiano di Segrate,<br />
-tel. 02.2131196, e-mail : info@santambrogiosegrate.org<br />
+© 2006 ~ 2010 Tintoria San Cristoforo<br />
 Sito creato da <a href="http://grimp.eu">Grimp di Fabio Alessandro Locati</a>
 	</div><!-- #footer -->
 </div><!-- #wrapper -->
