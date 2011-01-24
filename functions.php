@@ -15,8 +15,8 @@ function grimp_sas_widgets_init() {
 		'name' => __( 'Left Widget Area', 'grimp-sas' ),
 		'id' => 'left-widget-area',
 		'description' => __( 'The left widget area', 'twentyten' ),
-		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</li>',
+		'before_widget' => '<ul class="xoxo"><li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li></ul>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
