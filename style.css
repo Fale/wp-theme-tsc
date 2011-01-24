@@ -877,3 +877,34 @@ code {
 		border: none;
 	}
 }
+
+/*Blocco Santi*/
+
+.grimp-seb {
+    text-align: center;
+}
+
+.grimp-seb table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grimp-seb p {
+    margin-bottom: 0px;
+}
+
+.grimp-seb b {
+    font: 11px Arial;
+    color: #000000;
+    display: block;
+  }
+
+
+.grimp-seb td {
+    font: 11px Arial;
+    color: #000000;
+    background-color: #ffffff;
+  }
