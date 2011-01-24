@@ -634,7 +634,7 @@ body.page .edit-link {
   border-radius: 15px;
 }
 
-.widget-area ul {
+.widget-area ul li{
 	list-style: none;
 	border-right:1px solid #e1e1e1;
 	border-bottom:1px solid #e1e1e1;
