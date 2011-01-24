@@ -641,6 +641,7 @@ body.page .edit-link {
 	border-left:1px solid #e1e1e1;
 	-moz-border-radius: 15px;
   border-radius: 15px;
+	margin-bottom: 10px;
 }
 
 .widget-area ul ul {
