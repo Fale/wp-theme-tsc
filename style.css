@@ -639,7 +639,7 @@ body.page .edit-link {
     border-radius: 15px;
 }
 
-.widget-area ul li div#center{
+.widget-area ul li div.center{
     text-align: center;
 }
 
