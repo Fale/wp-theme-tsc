@@ -48,14 +48,12 @@ del {
 /* =Layout
 -------------------------------------------------------------- */
 #container {
-	float: left;
-	margin-left: -240px;
-	margin-right: -240px;
-	width: 100%;
+	left: 240px;
+	right: 240px;
+	position: absolute;
+	text-align: left;
 }
-#content {
-	margin: 0 210px 0 250px;
-}
+
 #primary {
 	float: left;
 	overflow: hidden;
@@ -640,8 +638,15 @@ body.page .edit-link {
 	border-bottom:1px solid #e1e1e1;
 	border-left:1px solid #e1e1e1;
 	-moz-border-radius: 15px;
-  border-radius: 15px;
+    border-radius: 15px;
 	margin-bottom: 10px;
+	text-align: left;
+}
+
+.widget-area ul li li{
+	list-style: none;
+	border: none;
+	margin: none;
 }
 
 .widget-area ul ul {
