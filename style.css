@@ -71,6 +71,7 @@ del {
 }
 
 #footer {
+    float: left;
 	clear: both;
 	width: 100%;
 	text-align: center;
