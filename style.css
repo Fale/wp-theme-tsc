@@ -659,8 +659,8 @@ body.page .edit-link {
 }
 
 .widget-area ul li li{
-	list-style: none;
 	border: none;
+	padding: none;
 	margin: none;
 }
 
