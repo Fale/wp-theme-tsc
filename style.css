@@ -648,6 +648,10 @@ body.page .edit-link {
 	text-align: left;
 }
 
+#widget-inner {
+    padding: 5px;
+}
+
 .widget-area ul li li{
 	list-style: none;
 	border: none;

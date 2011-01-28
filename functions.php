@@ -16,9 +16,9 @@ function grimp_sas_widgets_init() {
 		'id' => 'left-widget-area',
 		'description' => __( 'The left widget area', 'twentyten' ),
 		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</li>',
+		'after_widget' => '</div></li>',
 		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'after_title' => '</h3><div id="widget-inner">',
 	) );
 
 	register_sidebar( array(
@@ -26,9 +26,9 @@ function grimp_sas_widgets_init() {
 		'id' => 'right-widget-area',
 		'description' => __( 'The right widget area', 'twentyten' ),
 		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</li>',
+		'after_widget' => '</div></li>',
 		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'after_title' => '</h3><div id="widget-inner">',
 	) );
 }
 add_action( 'widgets_init', 'grimp_sas_widgets_init' );
