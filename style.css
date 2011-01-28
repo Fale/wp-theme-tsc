@@ -632,11 +632,15 @@ body.page .edit-link {
 -------------------------------------------------------------- */
 
 .widget-area h3 {
-  border: 1px solid #e1e1e1;
-  background: #f1f1f1;
-  text-align: center;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+    border: 1px solid #e1e1e1;
+    background: #f1f1f1;
+    text-align: center;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.widget-area ul li div#center{
+    text-align: center;
 }
 
 .widget-area ul li{
