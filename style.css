@@ -658,7 +658,7 @@ body.page .edit-link {
     padding: 10px;
 }
 
-.widget-area ul li li{
+.widget-area ul ul li{
 	list-style: square;
 	border: none;
 	padding: none;
