@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-<?php get_sidebar('left'); ?>
 
 		<div id="container">
+<?php get_sidebar('left'); ?>
 			<div id="content">
   			<div id="center" role="main">
 
@@ -32,7 +32,7 @@
 
   			</div><!-- #center -->
 			</div><!-- #content -->
+<?php get_sidebar('right'); ?>
 		</div><!-- #container -->
 
-<?php get_sidebar('right'); ?>
 <?php get_footer(); ?>

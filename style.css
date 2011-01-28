@@ -47,7 +47,11 @@ del {
 
 /* =Layout
 -------------------------------------------------------------- */
-#container {
+#conteiner {
+    float: left;
+}
+
+#content {
 	left: 240px;
 	right: 240px;
 	position: absolute;
