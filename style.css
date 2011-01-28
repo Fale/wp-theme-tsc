@@ -659,6 +659,7 @@ body.page .edit-link {
 }
 
 .widget-area ul li li{
+	list-style: square;
 	border: none;
 	padding: none;
 	margin: none;
@@ -666,7 +667,11 @@ body.page .edit-link {
 
 .widget-area ul ul {
 	list-style: square;
+	border: none;
+	padding: none;
+	margin: none;
 }
+
 .widget_search #s {/* This keeps the search inputs in line */
 	width: 60%;
 }
