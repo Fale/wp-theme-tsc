@@ -213,14 +213,14 @@ textarea {
 	padding: 2px;
 }
 a:link {
-	color: #0066cc;
+	color: #000;
 }
 a:visited {
-	color: #743399;
+	color: #000;
 }
 a:active,
 a:hover {
-	color: #ff4b33;
+	color: #000;
 }
 
 /* Text meant only for screen readers */
