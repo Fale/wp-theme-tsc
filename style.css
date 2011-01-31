@@ -234,7 +234,7 @@ a:hover {
 -------------------------------------------------------------- */
 
 #header {
-	padding: 30px 0 0 0;
+	padding: none;
 }
 #site-title {
 	float: left;
@@ -639,6 +639,11 @@ body.page .edit-link {
     border-radius: 15px;
 }
 
+.widget-area ul {
+	margin-left: 0;
+	padding: 0 0 0 0;
+}
+
 .widget-area ul li div.center{
     text-align: center;
 }
@@ -658,14 +663,15 @@ body.page .edit-link {
     padding: 10px;
 }
 
-.widget-area ul ul li{
+#widget-inner ul {
 	list-style: square;
 	border: none;
 	padding: none;
-	margin: none;
+	border: none;
+	margin: 0 0 0 1.3em;
 }
 
-.widget-area ul ul {
+#widget-inner ul li{
 	list-style: square;
 	border: none;
 	padding: none;
@@ -738,21 +744,6 @@ body.page .edit-link {
 .widget_rss .widget-title img {
 	width: 11px;
 	height: 11px;
-}
-
-/* Main sidebars */
-#main .widget-area ul {
-	margin-left: 0;
-	padding: 0 0 0 0;
-}
-#main .widget-area ul ul {
-	border: none;
-	margin-left: 1.3em;
-	padding: 0;
-}
-#primary {
-}
-#secondary {
 }
 
 /* =Footer
