@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-
-		<div id="container">
 <?php get_sidebar('left'); ?>
 			<div id="content">
   			<div id="center" role="main">
@@ -32,6 +30,4 @@
   			</div><!-- #center -->
 			</div><!-- #content -->
 <?php get_sidebar('right'); ?>
-		</div><!-- #container -->
-
 <?php get_footer(); ?>

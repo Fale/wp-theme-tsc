@@ -1,8 +1,7 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
-&copy; 2006-<?php echo date("Y"); ?> Tintoria San Cristoforo<br />
-Sito creato da <a href="http://grimp.eu">Grimp di Fabio Alessandro Locati</a>
+    	<?php get_sidebar( 'footer' ); ?>
 	</div><!-- #footer -->
 </div><!-- #wrapper -->
 

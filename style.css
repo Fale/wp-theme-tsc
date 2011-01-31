@@ -863,7 +863,6 @@ code {
 	.widget-area {
 		display: none !important;
 	}
-	#container,
 	#header,
 	#footer {
 		margin: 0;
@@ -897,6 +896,7 @@ code {
 	}
 	#main {
 		display: inline;
+		border: 1px solid;
 	}
 	.home .sticky {
 		border: none;
