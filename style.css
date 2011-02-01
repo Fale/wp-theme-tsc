@@ -50,35 +50,34 @@ del {
 /* =Layout
 -------------------------------------------------------------- */
 #main {
+    width: 100%;
     float: left;
 }
 
-#content {
-	left: 240px;
-	right: 240px;
-	position: absolute;
-	text-align: left;
-}
-
-#primary {
+#primary
+{
 	float: left;
 	overflow: hidden;
-	width: 220px;
+	width: 180px;
 }
 
-#secondary {
+#secondary
+{
 	float: right;
 	overflow: hidden;
-	width: 220px;
+	width: 180px;
 }
 
-#footer {
-    float: left;
+#content
+{
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+#footer
+{
 	clear: both;
-	width: 100%;
-	text-align: center;
 }
-
 /* =Structure
 -------------------------------------------------------------- */
 
@@ -87,7 +86,6 @@ del {
 div.menu,
 #colophon,
 #branding,
-#main,
 #wrapper {
 	margin: 0 auto;
 	width: 99%;

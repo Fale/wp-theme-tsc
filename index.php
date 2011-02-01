@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <?php get_sidebar('left'); ?>
+<?php get_sidebar('right'); ?>
 			<div id="content">
   			<div id="center" role="main">
 
@@ -8,7 +9,7 @@
 			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 				<div class="entry">
 					<?php the_content((__( '&raquo; Read more: ', 'default')) . the_title('', '', false)); ?>
-				</div>        
+				</div>
 			</div>
 
 		<?php endwhile; ?>
@@ -29,5 +30,4 @@
 
   			</div><!-- #center -->
 			</div><!-- #content -->
-<?php get_sidebar('right'); ?>
 <?php get_footer(); ?>
