@@ -19,20 +19,26 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent;
-	font-size: 13px;
 	border: 0;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
 }
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	font-size: 13px;
+}
 body {
 	line-height: 1;
 }
-h1, h2, h3, h4, h5, h6 {
-	clear: both;
-	font-size: 15px;
-	font-weight: normal;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -250,11 +256,6 @@ a:hover {
 	font-style: italic;
 	margin: 14px 0 18px 0;
 	width: 220px;
-}
-
-.header-widget-area h2{
-    font-weight: bold;
-    font-size: 1.5em;
 }
 
 /* This is the custom header image */
