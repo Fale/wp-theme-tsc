@@ -57,15 +57,13 @@ del {
 #primary
 {
 	float: left;
-	overflow: hidden;
-	width: 180px;
+	width: 220px;
 }
 
 #secondary
 {
 	float: right;
-	overflow: hidden;
-	width: 180px;
+	width: 220px;
 }
 
 #content
