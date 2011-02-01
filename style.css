@@ -635,16 +635,12 @@ body.page .edit-link {
     border-radius: 15px;
 }
 
-.widget-area ul {
-	margin-left: 0;
-	padding: 0 0 0 0;
+.widget-area ul.xoxo {
+	margin: none;
+	padding: none;
 }
 
-.widget-area ul li div.center{
-    text-align: center;
-}
-
-.widget-area ul li{
+.widget-area li.widget-container{
 	list-style: none;
 	border-right:1px solid #e1e1e1;
 	border-bottom:1px solid #e1e1e1;
@@ -653,6 +649,10 @@ body.page .edit-link {
     border-radius: 15px;
 	margin-bottom: 10px;
 	text-align: left;
+}
+
+#widget-inner div.center{
+    text-align: center;
 }
 
 #widget-inner {
@@ -664,15 +664,7 @@ body.page .edit-link {
 	list-style: square;
 	border: none;
 	padding: none;
-	border: none;
 	margin: 0 0 0 1.3em;
-}
-
-#widget-inner ul li{
-	list-style: square;
-	border: none;
-	padding: none;
-	margin: none !important;
 }
 
 .widget_search #s {/* This keeps the search inputs in line */
