@@ -350,11 +350,6 @@ div.menu li {
   padding: 5px;
 }
 
-#center h4{
-    font-weight: none;
-    margin-bottom: 2px;
-}
-
 #content {
 	margin-bottom: 36px;
 }
@@ -607,6 +602,10 @@ body.page .edit-link {
 }
 #content .video-player {
 	padding: 0;
+}
+.entry h4{
+    font-weight: none;
+    margin-bottom: 2px;
 }
 
 
