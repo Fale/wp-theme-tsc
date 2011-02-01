@@ -782,7 +782,7 @@ img#wpstats {
 	margin: 0 auto 10px;
 }
 
-#footer-widget-area {
+#footer-widget-area ul{
     list-style: none;
 }
 
