@@ -36,7 +36,7 @@
 	<div id="header">
 		<img src="/wp-content/themes/wp-theme-tsc/img/logo.gif" alt="" />
 		<div style="text-align:center">
-	    <ul class="xoxo"><?php dynamic_sidebar( 'header-widget-area' ); ?></ul>
+	    <ul class="header-widget-area"><?php dynamic_sidebar( 'header-widget-area' ); ?></ul>
 	  <div />
 	</div><!-- #header -->
 
