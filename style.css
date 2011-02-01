@@ -782,6 +782,13 @@ img#wpstats {
 	margin: 0 auto 10px;
 }
 
+.footer-widget-area {
+    list-style: none;
+}
+
+.footer-widget-area a{
+    text-decoration: none;
+}
 
 /* =Mobile Safari ( iPad, iPhone and iPod Touch )
 -------------------------------------------------------------- */
