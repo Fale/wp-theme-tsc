@@ -361,6 +361,7 @@ div.menu li {
 #content input,
 #content textarea {
 	color: #333;
+	text-align: left;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -657,6 +658,7 @@ body.page .edit-link {
 
 #widget-inner {
     padding: 10px;
+    margin: none;
 }
 
 #widget-inner ul {
@@ -671,7 +673,7 @@ body.page .edit-link {
 	list-style: square;
 	border: none;
 	padding: none;
-	margin: none;
+	margin: none !important;
 }
 
 .widget_search #s {/* This keeps the search inputs in line */
