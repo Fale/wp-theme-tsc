@@ -116,7 +116,7 @@ p {
 }
 ul {
 	list-style: square;
-	margin: 0 0 18px 1.5em;
+	margin: 0 0 18px 0;
 }
 ol {
 	list-style: decimal;
@@ -635,18 +635,19 @@ body.page .edit-link {
     border-radius: 15px;
 }
 
-.widget-area ul.xoxo {
+.widget-area ul {
 	margin: none;
 	padding: none;
 }
 
-.widget-area li.widget-container{
+.widget-area li {
 	list-style: none;
 	border-right:1px solid #e1e1e1;
 	border-bottom:1px solid #e1e1e1;
 	border-left:1px solid #e1e1e1;
 	-moz-border-radius: 15px;
     border-radius: 15px;
+    margin-left: none;
 	margin-bottom: 10px;
 	text-align: left;
 }
