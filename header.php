@@ -34,7 +34,7 @@
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed">
 	<div id="header">
-		<img src="/wp-content/themes/wp-theme-tsc/img/logo.gif" alt="" />
+		<img src="/wp-content/themes/grimp-clean/img/logo.gif" alt="" />
 		<div style="text-align:center">
 	    <ul class="header-widget-area"><?php dynamic_sidebar( 'header-widget-area' ); ?></ul>
 	  <div />
