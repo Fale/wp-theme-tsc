@@ -351,7 +351,7 @@ div.menu li {
 }
 
 #content {
-	font-size: 12px;
+	font-size: 14px;
 	margin-bottom: 36px;
 }
 #content,
@@ -624,11 +624,11 @@ body.page .edit-link {
 -------------------------------------------------------------- */
 
 .widget-area h3 {
-    border: 1px solid #e1e1e1;
-    background: #f1f1f1;
-    text-align: center;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+	border: 1px solid #e1e1e1;
+	background: #f1f1f1;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 .widget-area ul.xoxo {
@@ -642,18 +642,18 @@ body.page .edit-link {
 	border-bottom:1px solid #e1e1e1;
 	border-left:1px solid #e1e1e1;
 	-moz-border-radius: 15px;
-    border-radius: 15px;
+	border-radius: 15px;
 	margin-bottom: 10px;
 	text-align: left;
 }
 
 #widget-inner div.center{
-    text-align: center;
+	text-align: center;
 }
 
 #widget-inner {
-    padding: 10px;
-    margin: none;
+	padding: 10px;
+	margin: none;
 }
 
 #widget-inner ul {
