@@ -11,6 +11,16 @@ function grimp_clean_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 
+        register_sidebar( array(
+                'name' => __( 'Top Widget Area', 'grimp-clean' ),
+                'id' => 'top-widget-area',
+                'description' => __( 'The top widget area', 'grimp-clean' ),
+                'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+                'after_widget' => '</div></li>',
+                'before_title' => '<h3 class="widget-title">',
+                'after_title' => '</h3><div id="widget-inner">',
+        ) );
+
 	register_sidebar( array(
 		'name' => __( 'Left Widget Area', 'grimp-clean' ),
 		'id' => 'left-widget-area',
