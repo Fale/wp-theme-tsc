@@ -85,6 +85,7 @@ div.menu,
 	width: 99%;
 }
 #wrapper {
+	font-size: 13px;
 	background: #fff;
 }
 
@@ -99,7 +100,6 @@ body,
 input,
 textarea {
 	color: #666;
-	font-size: 12px;
 	line-height: 18px;
 }
 hr {
@@ -348,19 +348,13 @@ div.menu li {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	padding: 5px;
+	font-size: 14px;
 }
 
 #content {
-	font-size: 14px;
 	margin-bottom: 36px;
 }
-#content,
-#content input,
-#content textarea {
-	color: #333;
-	text-align: left;
-	line-height: 24px;
-}
+
 #content p,
 #content ul,
 #content ol,
@@ -385,12 +379,12 @@ div.menu li {
 #content th {
 	color: #000;
 }
-#content h1,
-#content h2,
-#content h3,
-#content h4,
-#content h5,
-#content h6 {
+#center h1,
+#center h2,
+#center h3,
+#center h4,
+#center h5,
+#center h6 {
 	color: #000;
 	line-height: 1.5em;
 }
@@ -403,7 +397,6 @@ div.menu li {
 #content tr th,
 #content thead th {
 	color: #888;
-	font-size: 12px;
 	font-weight: bold;
 	line-height: 18px;
 	padding: 9px 24px;
@@ -436,7 +429,6 @@ div.menu li {
 }
 .page-title span {
 	color: #333;
-	font-size: 12px;
 	font-style: italic;
 	font-weight: normal;
 }
@@ -608,7 +600,6 @@ body.page .edit-link {
 -------------------------------------------------------------- */
 
 .home #content .category-asides p {
-	font-size: 14px;
 	line-height: 20px;
 	margin-bottom: 10px;
 	margin-top: 0;
