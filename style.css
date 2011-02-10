@@ -345,12 +345,13 @@ div.menu li {
 	clear: both;
 	overflow: hidden;
 	border:1px solid #e1e1e1;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  padding: 5px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 5px;
 }
 
 #content {
+	font-size: 12px;
 	margin-bottom: 36px;
 }
 #content,
@@ -358,7 +359,6 @@ div.menu li {
 #content textarea {
 	color: #333;
 	text-align: left;
-	font-size: 16px;
 	line-height: 24px;
 }
 #content p,
@@ -379,11 +379,7 @@ div.menu li {
 #content kbd,
 #content tt,
 #content var {
-	font-size: 15px;
 	line-height: 21px;
-}
-#content code {
-	font-size: 13px;
 }
 #content dt,
 #content th {
@@ -440,7 +436,7 @@ div.menu li {
 }
 .page-title span {
 	color: #333;
-	font-size: 16px;
+	font-size: 12px;
 	font-style: italic;
 	font-weight: normal;
 }
