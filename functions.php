@@ -15,8 +15,8 @@ function grimp_clean_widgets_init() {
                 'name' => __( 'Top Widget Area', 'grimp-clean' ),
                 'id' => 'top-widget-area',
                 'description' => __( 'The top widget area', 'grimp-clean' ),
-                'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-                'after_widget' => '</div></li>',
+                'before_widget' => '<div id="top-widget-area" class="widget-area" role="complementary"><ul class="xoxo"><li id="%1$s" class="widget-container %2$s">',
+                'after_widget' => '</div></li></ul></div>',
                 'before_title' => '<h3 class="widget-title">',
                 'after_title' => '</h3><div id="widget-inner">',
         ) );

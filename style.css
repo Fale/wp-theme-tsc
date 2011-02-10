@@ -114,27 +114,27 @@ hr {
 p {
 	margin-bottom: 18px;
 }
-#content ul {
+#center ul {
 	list-style: square;
 	margin: 0 0 18px 1.5em;
 }
-#content ol {
+#center ol {
 	list-style: decimal;
 	margin: 0 0 18px 1.5em;
 }
-#content ol ol {
+#center ol ol {
 	list-style: upper-alpha;
 }
-#content ol ol ol {
+#center ol ol ol {
 	list-style: lower-roman;
 }
-#content ol ol ol ol {
+#center ol ol ol ol {
 	list-style: lower-alpha;
 }
-#content ul ul,
-#content ol ol,
-#content ul ol,
-#content ol ul {
+#center ul ul,
+#center ol ol,
+#center ul ol,
+#center ol ul {
 	margin-bottom: 0;
 }
 dl {
