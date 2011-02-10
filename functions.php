@@ -30,7 +30,7 @@ function grimp_clean_widgets_init() {
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3><div id="widget-inner">',
 	) );
-	
+
 	register_sidebar( array(
 		'name' => __( 'Footer Widget Area', 'grimp-clean' ),
 		'id' => 'footer-widget-area',
@@ -65,8 +65,8 @@ function grimp_clean_setup() {
 
 	// The height and width of your custom header. You can hook into the theme's own filters to change these values.
 	// Add a filter to twentyten_header_image_width and twentyten_header_image_height to change these values.
-	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'grimp_clean_header_image_width', 857 ) );
-	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'grimp_clean_header_image_height', 103 ) );
+	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'grimp_clean_header_image_width', 850 ) );
+	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'grimp_clean_header_image_height', 110 ) );
 
 	// We'll be using post thumbnails for custom header images on posts and pages.
 	// We want them to be 940 pixels wide by 198 pixels tall.
